@@ -6,7 +6,7 @@ const mongoDB=require("./db")
 
 mongoDB();
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://food-deliver-8iz6.vercel.app/',
     optionsSuccessStatus: 200
 }));
 
